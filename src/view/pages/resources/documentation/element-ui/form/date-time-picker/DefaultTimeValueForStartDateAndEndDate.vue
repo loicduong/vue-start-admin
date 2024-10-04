@@ -1,0 +1,63 @@
+<script setup lang="ts">
+import CodeHighlighter from '@/view/content/highlighters/CodeHighlighter.vue'
+import { ref } from 'vue'
+import { code3 } from './data'
+
+const value1 = ref('')
+
+const value2 = ref('')
+
+const defaultTime1 = ref([new Date(2000, 1, 1, 12, 0, 0)]) // '12:00:00'
+
+const defaultTime2 = ref([
+  new Date(2000, 1, 1, 12, 0, 0),
+  new Date(2000, 2, 1, 8, 0, 0),
+]) // '12:00:00', '08:00:00'
+</script>
+
+<template>
+  <div class="mb-10">
+    <!-- begin::Heading -->
+    <h2 class="anchor fw-bolder mb-5">
+      <a href="#default-time-value-for-start-date-and-end-date" />
+      Default time value for start date and end date
+    </h2>
+    <!-- end::Heading -->
+
+    <div class="rounded border p-10">
+      <div class="block mb-5">
+        <span
+          class="demonstration"
+          style="margin-right: 5px"
+        >Start date time 12:00:00</span>
+        <ElDatePicker
+          v-model="value1"
+          type="datetimerange"
+          start-placeholder="Start Date"
+          end-placeholder="End Date"
+          :default-time="defaultTime1"
+        />
+      </div>
+      <div class="block">
+        <span
+          class="demonstration"
+          style="margin-right: 5px"
+        >Start date time 12:00:00, end date time 08:00:00</span>
+        <ElDatePicker
+          v-model="value2"
+          type="datetimerange"
+          align="right"
+          start-placeholder="Start Date"
+          end-placeholder="End Date"
+          :default-time="defaultTime2"
+        />
+      </div>
+
+      <CodeHighlighter :field-height="400" lang="html">
+        {{
+          code3
+        }}
+      </CodeHighlighter>
+    </div>
+  </div>
+</template>

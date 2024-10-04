@@ -1,0 +1,45 @@
+//
+// To make future updates easier consider overriding the global variables from _variables.bootstrap.scss and _variables.custom.scss for current demo in this file.
+// Note that this file is included first and variables defined in _variables.bootstrap.scss and _variables.custom.scss
+// are not accessible in this file but you can override any global variable as shown below:
+//
+
+// Theme colors
+// Primary
+$primary: #20d489;
+$primary-active: #19b674;
+$primary-light: #e4fff4;
+$primary-inverse: #ffffff;
+
+// Success
+$success: #00b2ff;
+$success-active: #0098da;
+$success-light: #f1faff;
+$success-inverse: #ffffff;
+
+// Info
+$info: #5710b2;
+$info-active: #41058e;
+$info-light: #f6f1fc;
+$info-inverse: #ffffff;
+
+// Danger
+$danger: #f1416c;
+$danger-active: #d9214e;
+$danger-light: #ffeff3;
+$danger-inverse: #ffffff;
+
+// Warning
+$warning: #ffc700;
+$warning-active: #f1bc00;
+$warning-light: #fff8dd;
+$warning-inverse: #ffffff;
+
+// Border Radiues
+$border-radius-sm: 0.3rem;
+$border-radius: 0.65rem;
+$border-radius-lg: 0.85rem;
+$border-radius-xl: 1.25rem;
+
+// Card Box Shadow
+$card-box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.02);
