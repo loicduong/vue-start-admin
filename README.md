@@ -1,18 +1,20 @@
 # vue-start-admin
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a modern adaptation of the [Start Vue Free](https://keenthemes.com/products/start-vue-free/) - Admin Dashboard Template by [KeenThemes](https://keenthemes.com/). This project builds upon the original template, incorporating contemporary enhancements and modifications to meet current development standards and user expectations.
 
-## Recommended IDE Setup
+# Changes
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Vue 3](https://github.com/vuejs/core), [Vite 5](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/)
 
-## Type Support for `.vue` Imports in TS
+- [State Management via Pinia](https://pinia.vuejs.org/)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
-## Customize configuration
+- TypeScript 5
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi,
+
+- Config JSX 
 
 ## Project Setup
 
@@ -26,10 +28,16 @@ pnpm install
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Compile and Minify for Production
 
 ```sh
 pnpm build
+```
+
+### Type check
+
+```sh
+pnpm typecheck
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
