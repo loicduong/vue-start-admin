@@ -2,7 +2,7 @@
 
 This is a modern adaptation of the [Start Vue Free](https://keenthemes.com/products/start-vue-free/) - Admin Dashboard Template by [KeenThemes](https://keenthemes.com/). This project builds upon the original template, incorporating contemporary enhancements and modifications to meet current development standards and user expectations.
 
-# Changes
+## Changes
 
 - [Vue 3](https://github.com/vuejs/core), [Vite 5](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/)
 
