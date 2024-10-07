@@ -1,6 +1,6 @@
 # vue-start-admin
 
-This is a modern adaptation of the [Start Vue Free](https://keenthemes.com/products/start-vue-free/) - Admin Dashboard Template by [KeenThemes](https://keenthemes.com/). This project builds upon the original template, incorporating contemporary enhancements and modifications to meet current development standards and user expectations.
+This is a modern adaptation of the [Start Vue Free](https://keenthemes.com/products/start-vue-free/) - Admin Dashboard Template by [KeenThemes](https://github.com/keenthemes/). This project builds upon the original template, incorporating contemporary enhancements and modifications to meet current development standards and user expectations.
 
 ## Changes
 
